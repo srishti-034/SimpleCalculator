@@ -1,0 +1,43 @@
+#container
+{
+ font-size:40px;
+}
+
+#heading{ 
+         margin-bottom: 10px; 
+         text-align:center; 
+         color: #000099; 
+         font-family: Corbel;
+         font-size: 80px;
+         } 
+
+#keypad
+{
+    border: 10px outset;
+    border-radius: 5px;
+    background-color: #ccccff; 
+    width: 450px;
+    height: 500px;
+}
+input[type="button"] 
+{
+    background-color: #eff5f5; 
+    color: black; 
+    border: 5px outset; 
+    border-radius: 10px;
+    width: 90px ;
+    height:60px;
+    font-size: 40px;
+    font-family: Calibri;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+  
+input[type="text"] 
+{
+    background-color: white; 
+    border: 5px inset; 
+    border-radius: 10px;
+    width: 330px ;
+    height: 80px;
+    font-size: 35px;
+}
